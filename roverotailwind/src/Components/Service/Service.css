@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.services {
+    padding-top: 3.5rem;
+    /* padding-right: 6.4rem;
+    padding-left: 6.4rem; */
+  }
+  
+  .service-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .service-subtitle {
+    font-size: 19px;
+    font-weight: bold;
+    color: #bbbbbb;
+    font-family: "Noto Serif", serif;
+  }
+  
+  .service-title {
+    padding-top: 1rem;
+    padding-bottom: 0.75rem;
+    font-family: "Noto Serif", serif;
+    font-size: 34px;
+    font-weight: bold;
+  }
+  
+  .p {
+    font-size: 18px;
+    color: #666666;
+  
+  
+  }
+  
+  .center {
+    padding-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .icon {
+    font-size: 39px;
+    color: #a18549;
+  
+  }
+  
+  .mb {
+   
+    font-family:"Poppins", sans-serif;
+    padding-top: 1.7rem;
+    font-size: 24px;
+    padding-bottom: 1.1rem;
+  }
+  
+  .mbp {
+   
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    width: 90%;
+    color: #666666;
+    padding-bottom: 1rem;
+  }
+  

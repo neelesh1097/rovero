@@ -1,0 +1,30 @@
+ 
+  footer {
+    padding-block: 70px;
+    background-color: #2a2929;
+  
+  }
+  
+  .containerf {
+    padding-inline: 4rem;
+  }
+  
+  .footer-container {
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  
+  .link-company {
+  
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  
+  .link-company h4 {
+    color: #f9f3f3;
+  }
+  
+  .link-company a {
+    color: #f5f1f1;
+  }

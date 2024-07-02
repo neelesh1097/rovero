@@ -1,0 +1,284 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@media (max-width: 1209px) {
+    
+    .subtitle {
+      font-size: 20px;
+    }
+  
+    .description {
+      font-size: 18px;
+    }
+  
+  
+    .title {
+      font-size: 48px;
+    }
+  
+   
+  
+   
+    .title1{
+      font-size: 40px;
+    }
+  
+    
+  
+     
+  
+     
+  
+     .content-center-room{
+      padding-left:0rem;
+      padding-right:0rem;
+  
+     }
+  
+   
+  
+   
+    
+  }
+  
+  @media (max-width: 1069px) {
+  
+    .social-link {
+      display: none;
+    }
+  
+  
+    .title {
+      font-size: 35px;
+    }
+  
+    .subtitle {
+      font-size: 19px;
+    }
+  
+    .header-container1{
+      display: none !important;
+    }
+  
+   .btn{
+    padding: 1%;
+    font-size: 1px;
+   }
+   .text-white {
+    font-size:0px;
+   }
+   
+    
+  
+  
+     
+  
+  }
+  
+  @media (max-width: 991px) {
+  
+   
+  
+  .text{
+    display:none;
+  }
+  
+    
+  
+    
+  
+    .main-menu ul {
+      display: none;
+    }
+  
+    .header-main-menu:before {
+     
+      content: '\2630';
+      /* Hamburger icon */
+      font-size: 24px;
+      cursor: pointer;
+      display: block;
+    }
+  
+    .header-main-menu[aria-expanded="true"] ul {
+      display: block;
+    }
+    .containerN{
+      /* padding-right:2rem; */
+      
+    }
+ 
+  
+    .services{
+      padding-left: 0rem;
+      padding-left: 0rem;
+    }
+   
+    .service-subtitle{
+      font-size: 17px;
+     
+    }
+    .service-title{
+        font-size:27px;
+    }
+   
+    .service-p{
+      font-size:18px;
+      
+    }
+  
+    .content{
+      padding-top: 2rem;
+    }
+  
+   
+    .mb{
+      /* padding-top:0.5rem; */
+      font-size:20px;
+    }
+    .mbp{
+      font-size: 13px;
+      
+    }
+ 
+    .title1{
+      font-size: 35px;
+    }
+  
+    .lifeheader{
+      font-size: 26px;
+    }
+  
+    .text-uppercase1{
+      font-size: 18px;
+    }
+    .lifeheaderp{
+      font-size: 15px;
+    }
+  
+   
+  
+    .text-uppercase{
+      font-size:20px;
+    }
+  
+    .text-white1{
+      font-size:30px;
+    }
+  
+    .text-white-p{
+      font-size: 15px;
+    }
+    .text-white{
+      font-size:30px;
+    }
+  
+   
+    .grid-container{
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      max-width:700px;
+    }
+  .services{
+    padding-right:0rem;
+  }
+  
+  .formcontainer{
+    max-width: 100%;
+    width: 100%;
+  }
+  
+  
+  
+   
+  
+   
+  }
+  
+  @media (max-width: 870px){
+    .formimg{
+      padding-left:0rem ;
+    }
+  
+    .formcontainer{
+      max-width: 100%;
+      width: 100%;
+    }
+  
+    
+     .text-white1{
+      font-size: 28px;
+    }
+  
+  
+     
+     .text-white {
+      font-size: 28px;
+  }
+  .text-white-p {
+      font-size: 14px;
+  }
+  }
+  
+  @media (max-width:618px){
+  
+   
+    .grid-container{
+      grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+      
+      max-width:500px;
+    }
+  
+   
+  
+      .link-company a{
+           font-size:12px ;
+      }
+  
+     
+  
+      .text-white {
+        font-size: 24px;
+    }
+    .text-white-p {
+        font-size: 12px;
+    }
+    
+      .text-white1{
+        font-size: 24px;
+      }
+    
+    .formcontainer{
+      max-width: 100%;
+      width: 100%;
+    }
+  
+  }
+  
+    @media(max-width:540px){
+      .title{
+        font-size: 20px;
+      }
+    
+      .description{
+        font-size:12px;
+      }
+  
+    }
+      @media(max-width:778px){
+  
+      
+       .service-p{
+        width: fit-content;
+       }
+      
+       .mbp {
+        font-size:10px;
+        width: fit-content;
+       }
+       .text-white1{
+        font-size: 28px;
+       }
+      }
